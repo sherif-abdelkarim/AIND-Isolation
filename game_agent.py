@@ -330,7 +330,7 @@ class AlphaBetaPlayer(IsolationPlayer):
         if not legal_moves:
             return (-1,-1)
         #best_move = legal_moves[randint(0, len(legal_moves) - 1)]
-        score, best_move = max[(self.score(game.forecast_move(m)),m) for m in legal_moves]
+        score, best_move = max([(self.score(game.forecast_move(m), self), m) for m in legal_moves])
         depth = 1
         time_out = False
         while (not time_out):
