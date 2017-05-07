@@ -47,11 +47,7 @@ def custom_score(game, player):
     number_of_tiles = game.height * game.width
     filled_spaced = number_of_tiles - len(game.get_blank_spaces())
     
-    return float(own_moves - opp_moves) * filled_spaced
-
-    # TODO: finish this function!
-    #raise NotImplementedError
-
+    return float(own_moves - (2 * opp_moves))
 
 def custom_score_2(game, player):
     """Calculate the heuristic value of a game state from the point of view
@@ -85,8 +81,13 @@ def custom_score_2(game, player):
 
     own_moves = len(game.get_legal_moves(player))
     opp_moves = len(game.get_legal_moves(opponent))
-    
-    return float((own_moves+0.000001)/(opp_moves+0.000001))
+    number_of_tiles = game.height * game.width
+    filled_spaced = number_of_tiles - len(game.get_blank_spaces())
+    w, h = game.width, game.height
+    y, x = game.get_player_location(player)
+    distance_to_center = float((h/2 - y)**2 + (w/2 - x)**2)
+
+    return float((own_moves) - (2*opp_moves)) + distance_to_center
 
 def custom_score_3(game, player):
     """Calculate the heuristic value of a game state from the point of view
@@ -123,12 +124,8 @@ def custom_score_3(game, player):
     number_of_tiles = game.height * game.width
     filled_spaced = number_of_tiles - len(game.get_blank_spaces())
     
-    return float((own_moves+0.000001)/(opp_moves+0.000001)) * filled_spaced
+    return float((own_moves)-(3 * opp_moves))
     
-    # TODO: finish this function!
-    #raise NotImplementedError
-
-
 class IsolationPlayer:
     """Base class for minimax and alphabeta agents -- this class is never
     constructed or tested directly.
@@ -329,10 +326,11 @@ class AlphaBetaPlayer(IsolationPlayer):
 
         # Initialize the best move so that this function returns something
         # in case the search fails due to timeout
-        best_move = (-1, -1)
+        legal_moves = game.get_legal_moves()
+        if(len(legal_moves) == 0):
+            return (-1,-1)
+        best_move = legal_moves[randint(0, len(legal_moves) - 1)]
         depth = 1
-        same_result = 0
-        previous_best_move = None
         time_out = False
         while (not time_out):
             #print(depth)
@@ -354,6 +352,7 @@ class AlphaBetaPlayer(IsolationPlayer):
             depth += 1
 
             # Return the best move from the last completed search iteration#
+        #print(game.to_string())
         return best_move
 
         # TODO: finish this function!
