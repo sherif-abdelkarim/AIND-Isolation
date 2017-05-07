@@ -326,10 +326,11 @@ class AlphaBetaPlayer(IsolationPlayer):
 
         # Initialize the best move so that this function returns something
         # in case the search fails due to timeout
-        legal_moves = game.get_legal_moves()
-        if(len(legal_moves) == 0):
+        legal_moves = game.get_legal_moves(self)
+        if not legal_moves:
             return (-1,-1)
-        best_move = legal_moves[randint(0, len(legal_moves) - 1)]
+        #best_move = legal_moves[randint(0, len(legal_moves) - 1)]
+        score, best_move = max[(self.score(game.forecast_move(m)),m) for m in legal_moves]
         depth = 1
         time_out = False
         while (not time_out):
