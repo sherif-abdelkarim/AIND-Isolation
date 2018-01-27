@@ -1,0 +1,481 @@
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random      89  |  11    86  |  14    84  |  16    91  |   9  
+    2       MM_Open     62  |  38    59  |  41    59  |  41    55  |  45  
+    3      MM_Center    73  |  27    85  |  15    79  |  21    79  |  21  
+    4     MM_Improved   56  |  44    45  |  55    63  |  37    61  |  39  
+    5       AB_Open     53  |  47    48  |  52    49  |  51    50  |  50  
+    6      AB_Center    49  |  51    51  |  49    47  |  53    51  |  49  
+    7     AB_Improved   58  |  42    50  |  50    49  |  51    54  |  46  
+--------------------------------------------------------------------------
+           Win Rate:      62.9%        60.6%        61.4%        63.0%    
+
+
+There were 1.0 timeouts during the tournament -- make sure your agent handles search timeout correctly, and consider increasing the timeout margin for your agent.
+
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random      84  |  16    92  |   8    91  |   9    87  |  13  
+    2       MM_Open     56  |  44    59  |  41    64  |  36    60  |  40  
+    3      MM_Center    84  |  16    85  |  15    85  |  15    85  |  15  
+    4     MM_Improved   59  |  41    57  |  43    64  |  36    58  |  42  
+    5       AB_Open     48  |  52    53  |  47    49  |  51    57  |  43  
+    6      AB_Center    49  |  51    48  |  52    50  |  50    55  |  45  
+    7     AB_Improved   46  |  54    54  |  46    49  |  51    50  |  50  
+--------------------------------------------------------------------------
+           Win Rate:      60.9%        64.0%        64.6%        64.6%    
+
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random      87  |  13    84  |  16    87  |  13    90  |  10  
+    2       MM_Open     48  |  52    62  |  38    62  |  38    57  |  43  
+    3      MM_Center    76  |  24    78  |  22    76  |  24    88  |  12  
+    4     MM_Improved   54  |  46    57  |  43    66  |  34    51  |  49  
+    5       AB_Open     49  |  51    49  |  51    57  |  43    55  |  45  
+    6      AB_Center    44  |  56    50  |  50    54  |  46    49  |  51  
+    7     AB_Improved   49  |  51    52  |  48    46  |  54    52  |  48  
+--------------------------------------------------------------------------
+           Win Rate:      58.1%        61.7%        64.0%        63.1%    
+
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random      94  |   6    88  |  12    87  |  13    90  |  10  
+    2       MM_Open     57  |  43    60  |  40    59  |  41    61  |  39  
+    3      MM_Center    85  |  15    84  |  16    88  |  12    86  |  14  
+    4     MM_Improved   50  |  50    64  |  36    59  |  41    51  |  49  
+    5       AB_Open     46  |  54    53  |  47    50  |  50    56  |  44  
+    6      AB_Center    44  |  56    47  |  53    58  |  42    55  |  45  
+    7     AB_Improved   51  |  49    49  |  51    54  |  46    51  |  49  
+--------------------------------------------------------------------------
+           Win Rate:      61.0%        63.6%        65.0%        64.3%    
+
+
+There were 8.0 timeouts during the tournament -- make sure your agent handles search timeout correctly, and consider increasing the timeout margin for your agent.
+
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random      87  |  13    89  |  11    89  |  11    88  |  12  
+    2       MM_Open     58  |  42    62  |  38    56  |  44    56  |  44  
+    3      MM_Center    83  |  17    79  |  21    86  |  14    84  |  16  
+    4     MM_Improved   49  |  51    62  |  38    54  |  46    60  |  40  
+    5       AB_Open     49  |  51    58  |  42    57  |  43    53  |  47  
+    6      AB_Center    49  |  51    50  |  50    48  |  52    48  |  52  
+    7     AB_Improved   55  |  45    48  |  52    50  |  50    52  |  48  
+--------------------------------------------------------------------------
+           Win Rate:      61.4%        64.0%        62.9%        63.0%    
+
+
+There were 14.0 timeouts during the tournament -- make sure your agent handles search timeout correctly, and consider increasing the timeout margin for your agent.
+
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random      71  |  29    66  |  34    72  |  28    73  |  27  
+    2       MM_Open     57  |  43    52  |  48    67  |  33    58  |  42  
+    3      MM_Center    74  |  26    74  |  26    79  |  21    76  |  24  
+    4     MM_Improved   52  |  48    59  |  41    57  |  43    63  |  37  
+    5       AB_Open     50  |  50    54  |  46    49  |  51    53  |  47  
+    6      AB_Center    45  |  55    56  |  44    45  |  55    53  |  47  
+    7     AB_Improved   51  |  49    52  |  48    51  |  49    47  |  53  
+--------------------------------------------------------------------------
+           Win Rate:      57.1%        59.0%        60.0%        60.4%    
+
+
+There were 23.0 timeouts during the tournament -- make sure your agent handles search timeout correctly, and consider increasing the timeout margin for your agent.
+
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random      85  |  15    89  |  11    87  |  13    86  |  14  
+    2       MM_Open     60  |  40    62  |  38    65  |  35    60  |  40  
+    3      MM_Center    84  |  16    76  |  24    81  |  19    84  |  16  
+    4     MM_Improved -----------------------------------
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    _____________________________________________________________________
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+_____________________________________________________________________
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+_____________________________________________________________________
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+_____________________________________________________________________
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random      85  |  15    82  |  18    82  |  18    87  |  13  
+    2       MM_Open     52  |  48    59  |  41    71  |  29    64  |  36  
+    3      MM_Center    75  |  25    88  |  12    84  |  16    83  |  17  
+    4     MM_Improved   60  |  40    64  |  36    57  |  43    60  |  40  
+    5       AB_Open     48  |  52    49  |  51    49  |  51    57  |  43  
+    6      AB_Center    50  |  50    52  |  48    56  |  44    46  |  54  
+    7     AB_Improved 
+_____________________________________________________________________
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random      77  |  23    87  |  13    90  |  10    87  |  13  
+    2       MM_Open     62  |  38    63  |  37    64  |  36    61  |  39  
+    3      MM_Center    79  |  21    82  |  18    86  |  14    83  |  17  
+    4     MM_Improved   48  |  52    55  |  45    48  |  52    63  |  37  
+    5       AB_Open     52  |  48    51  |  49    49  |  51    50  |  50  
+    6      AB_Center    49  |  51    47  |  53    46  |  54    48  |  52  
+    7     AB_Improved   51  |  49    47  |  53    50  |  50    56  |  44  
+--------------------------------------------------------------------------
+           Win Rate:      59.7%        61.7%        61.9%        64.0%    
+
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random      88  |  12    91  |   9    88  |  12    86  |  14  
+    2       MM_Open     53  |  47    57  |  43    67  |  33    58  |  42  
+    3      MM_Center    81  |  19    86  |  14    78  |  22    84  |  16  
+    4     MM_Improved   61  |  39    61  |  39    57  |  43    59  |  41  
+    5       AB_Open     54  |  46    53  |  47    59  |  41    55  |  45  
+    6      AB_Center    46  |  54    53  |  47    49  |  51    46  |  54  
+    7     AB_Improved   53  |  47    47  |  53    51  |  49    54  |  46  
+--------------------------------------------------------------------------
+           Win Rate:      62.3%        64.0%        64.1%        63.1%    
+
+
+There were 1.0 timeouts during the tournament -- make sure your agent handles search timeout correctly, and consider increasing the timeout margin for your agent.
+
+
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random      88  |  12    92  |   8    85  |  15    92  |   8  
+    2       MM_Open     59  |  41    54  |  46    59  |  41    59  |  41  
+    3      MM_Center    82  |  18    79  |  21    76  |  24    77  |  23  
+    4     MM_Improved 
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
+This script evaluates the performance of the custom_score evaluation function
+against the `ID_Improved` agent baseline. `ID_CustomScore` is an agent using
+Iterative Deepening and the custom_score function defined in game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random    
